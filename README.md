@@ -47,7 +47,7 @@ La commande **/kiss [player]** vous permet de donner de votre vie à un autre jo
 ## Installation
 
 1. Installer la dépendance [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).
-2. Installer le plugin [Erlyn Family]().
+2. Installer le plugin [Erlyn Family](https://github.com/ldxdev/erlyn-family-plugin-mc/releases/tag/jar).
 3. Configurer le fichier config.yml
 
 ```yml
@@ -219,3 +219,9 @@ error_message_reply_notfound: "&7Personne n'attend de &créponse &7de ta part !"
 # .@@@&          @@@@@@@@@@@@*  /@@@# @@@@.                 @@@@      %@@@,   #@@@@,    @@@@%@@@@,
 # .@@@@         @@@@      @@@@, /@@@#  @@@@%       *@@@@,   @@@@@@@@# %@@@@@@@@@@(    #@@@@   &@@@@
 ```
+
+## Développement
+
+*Erlyn Family* est développé sous **Spigot 1.12.2-R0.1-SNAPSHOT** et **PlaceholderAPI 2.10.9**. Le JDK utilisé pour le développement est en version **1.8.0_302**.
+
+Merci d'avoir lu <3
