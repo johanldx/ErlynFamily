@@ -1,0 +1,70 @@
+main: fr.ldx.erlynfamily.Main
+name: ErlynFamily
+version: BETA 1.1.0
+api-version: 1.12
+load: POSTWORLD
+depend: [PlaceholderAPI]
+description: Plugin pour une survie moddé familial en 1.12.2
+author: ldx
+permissions:
+  erlynfamily.*:
+    description: Toute les permissions
+    children:
+      - erlynfamily.spawn
+      - erlynfamily.setspawn
+      - erlynfamily.annonce
+      - erlynfamily.wiki
+      - erlynfamily.msg
+      - erlynfamily.kiss
+      - erlynfamily.stats
+      - erlynfamily.kick
+      - erlynfamily.chatcolor
+      - erlynfamily.bypass
+  erlynfamily.admin:
+    description: Permissions d'administration
+    children:
+      - erlynfamily.setspawn
+      - erlynfamily.kick
+  erlynfamily.joueur:
+    description: Permissions de base pour les joueur
+    children:
+      - erlynfamily.spawn
+      - erlynfamily.annonce
+      - erlynfamily.wiki
+      - erlynfamily.msg
+      - erlynfamily.kiss
+      - erlynfamily.stats
+      - erlynfamily.chatcolor
+commands:
+  spawn:
+    description: Permet de se téléporter au spawn
+    permission: erlynfamily.spawn
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  setspawn:
+    description: Permet de définir le spawn
+    permission: erlynfamily.setspawn
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  annonce:
+    description: Permet d'envoyer un message d'annonce global
+    permission: erlynfamily.annonce
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  wiki:
+    description: Permet d'avoir accès aux wikis des mods présent sur le serveur
+    permission: erlynfamily.wiki
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  msg:
+    description: Permet d'envoyer un message privé à un joueur connecté sur le serveur
+    permission: erlynfamily.msg
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  kiss:
+    description: Permet d'envoyer un bisous à un joueur connecté sur le serveur
+    permission: erlynfamily.kiss
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  stats:
+    description: Permet d'obtenir les stats d'un joueur
+    permission: erlynfamily.stats
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
+  kick:
+    description: Permet d'éjecter un joueur connecté du serveur
+    permission: erlynfamily.kick
+    permission-message: Tu n'as pas la permission d'utiliser cette commande.
