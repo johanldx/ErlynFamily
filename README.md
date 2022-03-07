@@ -12,7 +12,7 @@ Je l'ai développé seul pour un serveur privé entre amis car je ne trouvais au
 ### Messages de connexion/déconnexion
 Message personnalisé dans la barre d'action lors de la connexion et la déconnexion d'un joueur sur le serveur.
 
-## Delay
+### Delay
 Possibilité de définir le delay de téléportation.
 
 ### Message dans le chat global
